@@ -44,6 +44,14 @@ p {
     cursor: pointer;
     margin: .5em;
 }
+
+.rating:hover {
+    background-color: hsl(25,97%, 53%);
+}
+.rating:active {
+    background-color: hsl(213, 19%, 18%);
+    color: #fff;
+}
 .btn-container {
     width: 100%;
     align-items:stretch;

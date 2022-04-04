@@ -31,9 +31,7 @@ function handleRatingSubmit() {
   thankYouCard.classList.remove("hidden");
   ratingCard.classList.add("hidden");
 }
-
 ratingAmounts.forEach((button) => {
   button.addEventListener("click", handleRatingNumberBtn);
 });
-
 submitBtn.addEventListener("click", handleRatingSubmit);
